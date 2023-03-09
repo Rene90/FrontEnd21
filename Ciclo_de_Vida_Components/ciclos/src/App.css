@@ -1,0 +1,32 @@
+.titulo{
+  font-size: 45px;
+  color: black;
+}
+
+.card-personaje{
+  background: brown;
+  border:3px solid white;
+  border-radius: 12px;
+  color: yellow;
+  padding: .5em;
+  margin: .5em;
+  max-width: 350px;
+  text-align: center;
+  display: inline-block;
+}
+
+.card-titulo{
+  color: white;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.card-texto{
+  font-size: 18px;
+}
+
+.card-imagen{
+  border: 5px solid white;
+  border-radius: 50%;
+  width: 75%;
+}

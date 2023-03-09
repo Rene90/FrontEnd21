@@ -20,3 +20,12 @@ var estudiantesMascotas = estudiantes.map((elemento,indice,arreglo)=>{
 })
 
 console.log(`Este es mi nuevo arreglo ${estudiantesMascotas}`)
+// Lo hacemos con forEach pero no es eficiente
+
+var prueba = []
+
+estudiantes.forEach((elemento)=>{
+	prueba.push([elemento.nombre,elemento.mascota].join(" "))
+
+})
+console.log(`Esta es la manera alternativa de hacer lo mismo con foreach ${prueba}`)
